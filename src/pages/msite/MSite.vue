@@ -141,9 +141,9 @@
           </div>
         </div>
         <div class="m-indexBigModule">
-          <div class="floor">
+          <div class="floor m-floor">
             <a href="javacript:;" class="promItem prom-item">
-              <div class="promGood">
+              <div class="promGood promGood-1111">
                 <img src="./img/prom/prom2.png" alt="">
               </div>
               <div class="priceWrap">
@@ -156,6 +156,38 @@
               <span class="min">11</span>
               <span class="secs">00</span>
             </div>
+          </div>
+          <div class="floor floor1">
+            <a href="javacript:;" class="promItem promItem-2 promItem-3" >
+              <img class="promGood promGood2" src="./img/floor/7.png" alt="">
+            </a>
+            <a href="javacript:;" class="promItem promItem-2 promItem-4" >
+              <img class="promGood promGood2" src="./img/floor/8.png" alt="">
+            </a>
+          </div>
+          <div class="floor floor1">
+            <a href="javacript:;" class="promItem promItem-2 promItem-5" >
+              <img class="promGood promGood2" src="./img/floor/9.png" alt="">
+            </a>
+            <a href="javacript:;" class="promItem promItem-2 promItem-6" >
+              <img class="promGood promGood2" src="./img/floor/10.png" alt="">
+            </a>
+          </div>
+          <div class="floor floor1">
+            <a href="javascript:;" class="promItem promItem-2 promItem-7" >
+              <img class="promGood promGood2" src="./img/floor/11.png" alt="">
+            </a>
+            <a href="javascript:;" class="promItem promItem-2 promItem-8" >
+              <img class="promGood promGood2" src="./img/floor/12.png" alt="">
+            </a>
+          </div>
+          <div class="floorNav">
+            <a class="promNav prom-nav1" href="javascript:;"></a>  
+            <a class="promNav prom-nav1" href="javascript:;"></a>  
+            <a class="promNav prom-nav1" href="javascript:;"></a>  
+          </div>
+          <div class="floor flr">
+            <a class="gromItem grom-tilte" href="#"></a>
           </div>
         </div>
       </div>
@@ -274,14 +306,19 @@
                   line-height: 36px
                   white-space: nowrap
     .m-indexBigModule
+      background url('./img/floor/backpage.jpg')
+      background-size 100% 100%
+      padding-bottom 20px
+      height 2000px
       .floor
         width 750px
         height 280px
         display flex
         align-items center
         justify-content space-between 
-        margin-bottom 20px
         position relative
+      .m-floor
+        margin-bottom 20px
         .promItem
           display flex
           align-items center
@@ -294,10 +331,12 @@
         .prom-item
           background-image url('./img/shop/proms0.gif')
           background-size 100% 100% 
-          .promGood
+          .promGood-1111
             position absolute
             top 40px
             right 80px
+          .promGood
+            position absolute  
             img 
               width 168px
               height 168px
@@ -334,5 +373,62 @@
             padding 0 10px
           .secs
             padding 0 10px  
-          
+      .floor1
+        width 710px
+        height 186px
+        margin 0 20px 8px 20px   
+        .promItem-2
+          position relative
+          width 351px
+          height 186px
+        .promItem-3
+          background url('./img/floor/1.png')
+          background-size 100% 100%  
+        .promItem-4
+          background url('./img/floor/2.png')
+          background-size 100% 100% 
+        .promItem-5
+          background url('./img/floor/3.png')
+          background-size 100% 100%  
+        .promItem-6
+          background url('./img/floor/4.png')
+          background-size 100% 100% 
+        .promItem-7
+          background url('./img/floor/5.png')
+          background-size 100% 100%  
+        .promItem-8
+          background url('./img/floor/6.png')
+          background-size 100% 100%   
+        img
+          width 160px
+          height 160px
+          position absolute
+          top 20px
+          right 8px
+      .floorNav
+        display flex
+        width 710px
+        height 220px
+        margin 0 20px
+        .promNav
+          width 310px
+          height 220px
+          text-decoration none
+        .prom-nav1
+          width 310px
+          height 220px
+          background-image url('./img/lob/1.png')
+          background-size 100% 100%
+        .prom-nav2
+          background-image url('./img/lob/2.png')
+          background-size 100% 100%
+        .prom-nav3
+          background-image url('./img/lob/3.png')
+          background-size 100% 100%
+      .flr    
+        .grom-tilte
+          background-image url('./img/lob/4.png')
+          background-size 100% 100%
+
 </style>
+
